@@ -20,6 +20,7 @@ knitr::opts_chunk$set(
 
 It's generally agreed that conspiracy theories must have 3 properties:
 1. Multiple actors plotting together (if it's just one person, it's not a conspiracy)
+
 2. Secrecy (if there's open data, it's not a conspiracy)
 3. Malevolence/harmful goals (if you're plotting to buy mum a present, it's not a conspiracy)
 

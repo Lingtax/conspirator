@@ -13,9 +13,11 @@ what is and is not a conspiracy.
 
 It’s generally agreed that conspiracy theories must have 3 properties:
 1. Multiple actors plotting together (if it’s just one person, it’s not
-a conspiracy) 2. Secrecy (if there’s open data, it’s not a conspiracy)
-3. Malevolence/harmful goals (if you’re plotting to buy mum a present,
-it’s not a conspiracy)
+a conspiracy)
+
+2.  Secrecy (if there’s open data, it’s not a conspiracy)
+3.  Malevolence/harmful goals (if you’re plotting to buy mum a present,
+    it’s not a conspiracy)
 
 `conspirator` uses these parameters to generate a random conspiracy
 theory for you.
@@ -34,7 +36,7 @@ Generate a conspiracy using the `conspire` function
 
 ``` r
 conspirator::conspire()
-#> [1] "Snake people are covertly planning to unify against humanity."
+#> [1] "Very angry quolls are covertly putting up roadwork signs where there is no planned roadwork."
 ```
 
 ## Code of Conduct
