@@ -17,13 +17,17 @@ conspire <- function() {
                  "Scientists are", 
                  "Sulphur-crested cockatoos are", 
                  "Cats are", 
-                 "Corporations are"
+                 "Corporations are",
+                 "Bill Gates is",
+                 "The British Royal Family is"
                  )
   
   adjective <-  list("secretly", 
                      "covertly",
                      "maliciously",
-                     "surreptitiously")
+                     "surreptitiously",
+                    "deviously"
+                    )
   
   action <- list("swapping toothpaste for moisturiser.",
                  "putting up roadwork signs where there is no planned roadwork.",
@@ -36,7 +40,10 @@ conspire <- function() {
                  "faking moon landings.",
                  "putting microchips that track your location and activities into your mobile phone.",
                  "engaging in insider trading.",
-                 "putting chemicals like sodium, chlorine, and even occasionally iodine in salt."
+                 "putting chemicals like sodium, chlorine, and even occasionally iodine in salt.",
+                 "creating a race of bioengineered super soldiers.",
+                 "producing chemtrails containing mind-control chemicals.",
+                 "brewing low alcohol beer that tastes like real beer."
                  )
   
   paste(sample(agent, 1), 
