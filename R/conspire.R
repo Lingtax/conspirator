@@ -17,7 +17,8 @@ conspire <- function() {
                  "Scientists are")
   
   adjective <-  list("secretly", 
-                     "covertly", 
+                     "covertly",
+                     "maliciously",
                      "surreptitiously")
   
   action <- list("swapping toothpaste for moisturiser.",
