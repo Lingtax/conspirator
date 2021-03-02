@@ -2,10 +2,19 @@ Package: conspirator
 Title: Generates a Pseudo-Random Conspiracy Theory
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Mathew",
+    c(person(given = "Mathew",
            family = "Ling",
            role = c("aut", "cre"),
-           email = "mathewtyling@gmail.com")
+           email = "mathewtyling@gmail.com"),
+    person(given = "Mathew",
+           family = "Marques",
+           role = c("ctb")),
+    person(given = "Matthew",
+           family = "Williams",
+           role = c("ctb")),
+    person(given = "Stephen",
+           family = "Hill",
+           role = c("ctb")))
 Description: conspirator contains one function that generates a pseudo-random conspiracy theory. 
 License: MIT + file LICENSE
 Encoding: UTF-8

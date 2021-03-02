@@ -14,7 +14,9 @@ conspire <- function() {
                  "Very angry quolls are", 
                  "Underappreciated household appliances are",
                  "Big Pharma is", 
-                 "Scientists are")
+                 "Scientists are", 
+                 "Sulphur-crested cockatoos are", 
+                 "Cats are")
   
   adjective <-  list("secretly", 
                      "covertly", 
@@ -24,7 +26,8 @@ conspire <- function() {
                  "putting up roadwork signs where there is no planned roadwork.",
                  "planning to unify against humanity.",
                  "rearranging your cutlery drawer while you sleep.", 
-                 "stealing one sock per load of laundry.")
+                 "stealing one sock per load of laundry.",
+                 "exploiting us for food and bodyheat.")
   
   paste(sample(agent, 1), 
         sample(adjective, 1),
