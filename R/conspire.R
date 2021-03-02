@@ -16,7 +16,9 @@ conspire <- function() {
                  "Big Pharma is", 
                  "Scientists are", 
                  "Sulphur-crested cockatoos are", 
-                 "Cats are")
+                 "Cats are", 
+                 "Corporations are"
+                 )
   
   adjective <-  list("secretly", 
                      "covertly",
@@ -28,7 +30,14 @@ conspire <- function() {
                  "planning to unify against humanity.",
                  "rearranging your cutlery drawer while you sleep.", 
                  "stealing one sock per load of laundry.",
-                 "exploiting us for food and bodyheat.")
+                 "exploiting us for food and bodyheat.", 
+                 "upholding the status quo... That's it.",
+                 "making git commits with uninformative messages.",
+                 "faking moon landings.",
+                 "putting microchips that track your location and activities into your mobile phone.",
+                 "engaging in insider trading.",
+                 "putting chemicals like sodium, chlorine, and even occasionally iodine in salt."
+                 )
   
   paste(sample(agent, 1), 
         sample(adjective, 1),
