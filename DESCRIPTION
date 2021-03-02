@@ -1,0 +1,15 @@
+Package: conspirator
+Title: Generates a Pseudo-Random Conspiracy Theory
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mathew",
+           family = "Ling",
+           role = c("aut", "cre"),
+           email = "mathewtyling@gmail.com")
+Description: conspirator contains one function that generates a pseudo-random conspiracy theory. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
