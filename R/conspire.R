@@ -42,7 +42,7 @@ conspire <- function() {
                  "engaging in insider trading.",
                  "putting chemicals like sodium, chlorine, and even occasionally iodine in salt.",
                  "creating a race of bioengineered super soldiers.",
-                 "producing chemtrails containing mind-control chemicals.",
+                 "producing chemtrails containing mind-controlling chemicals.",
                  "brewing low alcohol beer that tastes like real beer."
                  )
   
