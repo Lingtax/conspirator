@@ -19,7 +19,14 @@ conspire <- function() {
                  "Cats are", 
                  "Corporations are",
                  "Bill Gates is",
-                 "The British Royal Family is"
+                 "The British Royal Family is", 
+                 "Social media corporations are", 
+                 "Media goliaths are",
+                 "Intelligence and Security services are",
+                 "The military is",
+                 "Space force is",
+                 "The mining industry is",
+                 "The media is"
                  )
   
   adjective <-  list("secretly", 
@@ -43,7 +50,11 @@ conspire <- function() {
                  "putting chemicals like sodium, chlorine, and even occasionally iodine in salt.",
                  "creating a race of bioengineered super soldiers.",
                  "producing chemtrails containing mind-controlling chemicals.",
-                 "brewing low alcohol beer that tastes like real beer."
+                 "brewing low alcohol beer that tastes like real beer.", 
+                 "stealing likes from my edgy tweets.",
+                 "replacing butter with margarine.", 
+                 "concealing the real truth about the Berentein bears.",
+                 "hiding the healing properties of outrage culture."
                  )
   
   paste(sample(agent, 1), 
