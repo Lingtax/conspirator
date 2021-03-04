@@ -59,7 +59,7 @@ conspire <- function() {
                  "disseminating rumours about fake conspiracies.", 
                  "placing mysterious monoliths and obelisks around the world.", 
                  "green-lighting terrible Netflix originals.",
-                 "forcibly cybernetically enhancing the public.", 
+                 "cybernetically enhancing the public.", 
                  "making software that devises malevolent schemes.",
                  "financing Sky news.",
                  "giving people more rights, and you see that means that you get less rights... that's how it works you know.",
