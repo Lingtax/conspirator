@@ -17,7 +17,6 @@ conspire <- function() {
                  "Scientists are", 
                  "Sulphur-crested cockatoos are", 
                  "Cats are", 
-                 "Corporations are", 
                  "Drug barons are",
                  "The population of peoples named Mathew, Matthew, Matvei, Matej, Matko, Matityahu, Mateus, Matteo, etc. are",
                  "The Knights Templar are", 
@@ -25,13 +24,24 @@ conspire <- function() {
                  "A ritual-soaked conclave of turners and fitters are", 
                  "Androids are",
                  "A collective of empty-nesters are",
-                 "Lobbyists are"
+                 "Lobbyists are",
+                 "Bill Gates is",
+                 "The British Royal Family is", 
+                 "Social media corporations are", 
+                 "Media goliaths are",
+                 "Intelligence and Security services are",
+                 "The military is",
+                 "Space force is",
+                 "The mining industry is",
+                 "The media is"
                  )
   
   adjective <-  list("secretly", 
                      "covertly",
                      "maliciously",
-                     "surreptitiously")
+                     "surreptitiously",
+                    "deviously"
+                    )
   
   action <- list("swapping toothpaste for moisturiser.",
                  "putting up roadwork signs where there is no planned roadwork.",
@@ -55,7 +65,14 @@ conspire <- function() {
                  "giving people more rights, and you see that means that you get less rights... that's how it works you know.",
                  "holding secret accounts in your name that you can gain access to by wrapping your names in arbitrary punctuation.",
                  "replacing the secret herbs and spices one at a time.", 
-                 "hiding the existence of a surprisingly large number of animals."
+                 "hiding the existence of a surprisingly large number of animals.",
+                 "creating a race of bioengineered super soldiers.",
+                 "producing chemtrails containing mind-controlling chemicals.",
+                 "brewing low alcohol beer that tastes like real beer.", 
+                 "stealing likes from my edgy tweets.",
+                 "replacing butter with margarine.", 
+                 "concealing the real truth about the Berentein bears.",
+                 "hiding the healing properties of outrage culture."
                  )
   
   paste(sample(agent, 1), 
