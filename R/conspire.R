@@ -22,7 +22,10 @@ conspire <- function() {
                  "The population of peoples named Mathew, Matthew, Matvei, Matej, Matko, Matityahu, Mateus, Matteo, etc. are",
                  "The Knights Templar are", 
                  "The less-widely-known Knights Hospitalier are", 
-                 "A ritual-soaked conclave of turners and fitters are"
+                 "A ritual-soaked conclave of turners and fitters are", 
+                 "Androids are",
+                 "A collective of empty-nesters are",
+                 "Lobbyists are"
                  )
   
   adjective <-  list("secretly", 
@@ -45,7 +48,14 @@ conspire <- function() {
                  "raising an underground army of mole-people.", 
                  "disseminating rumours about fake conspiracies.", 
                  "placing mysterious monoliths and obelisks around the world.", 
-                 "green-lighting terrible Netflix originals."
+                 "green-lighting terrible Netflix originals.",
+                 "forcibly cybernetically enhancing the public.", 
+                 "making software that devises malevolent schemes.",
+                 "financing Sky news.",
+                 "giving people more rights, and you see that means that you get less rights... that's how it works you know.",
+                 "holding secret accounts in your name that you can gain access to by wrapping your names in arbitrary punctuation.",
+                 "replacing the secret herbs and spices one at a time.", 
+                 "hiding the existence of a surprisingly large number of animals."
                  )
   
   paste(sample(agent, 1), 
