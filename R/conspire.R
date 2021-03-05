@@ -33,7 +33,12 @@ conspire <- function() {
                  "The military is",
                  "Space force is",
                  "The mining industry is",
-                 "The media is"
+                 "The media is", 
+                 "Trash pandas are", 
+                 "So called culture warriors are",
+                 "The youth are",
+                 "Secret societies are",
+                 "Rattlers and Eagles are"
                  )
   
   adjective <-  list("secretly", 
@@ -71,8 +76,18 @@ conspire <- function() {
                  "brewing low alcohol beer that tastes like real beer.", 
                  "stealing likes from my edgy tweets.",
                  "replacing butter with margarine.", 
-                 "concealing the real truth about the Berentein bears.",
-                 "hiding the healing properties of outrage culture."
+                 "concealing the real truth about the Berenstein bears.",
+                 "hiding the healing properties of outrage culture.", 
+                 "replacing all normal distributions with cauchy distributions.",
+                 "disseminating rumours about a flat earth, to distract from the reality that the earth is a hollow sphere.",
+                 "encouraging parents to drop over whenever they want.",
+                 "changing the flavour of tapwater.",
+                 "cancelling your favourite TV shows.",
+                 "recording inexplicably terrible yet popular covers of classic songs.",
+                 "enrolling everyone in mandatory mindfulness seminars.",
+                 "scheduling meetings that should have been emails.", 
+                 "errecting strange new telecommunication towers.", 
+                 "breeding a more persistent, fecund, and louder variety of mosquito."
                  )
   
   paste(sample(agent, 1), 
