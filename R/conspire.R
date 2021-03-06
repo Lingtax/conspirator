@@ -87,7 +87,10 @@ conspire <- function() {
                  "enrolling everyone in mandatory mindfulness seminars.",
                  "scheduling meetings that should have been emails.", 
                  "errecting strange new telecommunication towers.", 
-                 "breeding a more persistent, fecund, and louder variety of mosquito."
+                 "breeding a more persistent, fecund, and louder variety of mosquito.",
+                 "signing you up to promotional emails and text messages.",
+                 "setting very specific password requirements, but not telling you what they are.", 
+                 "promoting the idea that speaking on the telephone is good."
                  )
   
   paste(sample(agent, 1), 
