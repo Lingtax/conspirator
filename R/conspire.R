@@ -38,7 +38,12 @@ conspire <- function() {
                  "So called culture warriors are",
                  "The youth are",
                  "Secret societies are",
-                 "Rattlers and Eagles are"
+                 "Rattlers and Eagles are",
+                 "Technocrats are",
+                 "Bureaucrats are",
+                 "Organised criminals are",
+                 "A sect within the church is", 
+                 "The music industry is"
                  )
   
   adjective <-  list("secretly", 
@@ -79,8 +84,9 @@ conspire <- function() {
                  "concealing the real truth about the Berenstein bears.",
                  "hiding the healing properties of outrage culture.", 
                  "replacing all normal distributions with cauchy distributions.",
-                 "disseminating rumours about a flat earth, to distract from the reality that the earth is a hollow sphere.",
                  "encouraging parents to drop over whenever they want.",
+                 "disseminating rumours about a flat earth, to distract from the reality that the earth is a hollow sphere.",
+                 "disseminating rumours about a hollow earth, to distract from the reality that the earth is flat.",
                  "changing the flavour of tapwater.",
                  "cancelling your favourite TV shows.",
                  "recording inexplicably terrible yet popular covers of classic songs.",
@@ -90,7 +96,26 @@ conspire <- function() {
                  "breeding a more persistent, fecund, and louder variety of mosquito.",
                  "signing you up to promotional emails and text messages.",
                  "setting very specific password requirements, but not telling you what they are.", 
-                 "promoting the idea that speaking on the telephone is good."
+                 "promoting the idea that speaking on the telephone is good.", 
+                 "making ballpoint pens that appear fine, but then run out halfway through a sentence.", 
+                 "delegitimising courts by adding gold-fringes to flags.",
+                 "hiding the existence of aliens.",
+                 "promoting belief in the existence of aliens.",
+                 "putting chemicals in the water supply.",
+                 "replacing celebrities with dopplegangers.",
+                 "building an elaborate complex under Denver airport.",
+                 "running their organisation from the basement of a pizza place.",
+                 "hiding messages in books that you can decode with computers.",
+                 "faking the deaths of political figures.", 
+                 "developing weather controlling technologies.",
+                 "building an earthquake machine.",
+                 paste0("hiding the fact that the current year is ", as.numeric(format(Sys.Date(), "%Y"))-297, "."), 
+                 "suppressing zero-point energy technology.", 
+                 "leaving clues to their conspiracy literally everywhere.", 
+                 "being simultanously capable of running a grand conspiracy, and being rubbish at opsec.",
+                 "making it so everyone will have to live in environmentally sustainable housing.",
+                 "censoring powerful people in subtle ways that are hard to actually quantify.",
+                 "forcing you to at least consider perspectives other than your own."
                  )
   
   paste(sample(agent, 1), 
