@@ -115,7 +115,8 @@ conspire <- function() {
                  "being simultanously capable of running a grand conspiracy, and being rubbish at opsec.",
                  "making it so everyone will have to live in environmentally sustainable housing.",
                  "censoring powerful people in subtle ways that are hard to actually quantify.",
-                 "forcing you to at least consider perspectives other than your own."
+                 "forcing you to at least consider perspectives other than your own.", 
+                 "falsifying the whole history of modern epidemiology."
                  )
   
   paste(sample(agent, 1), 
