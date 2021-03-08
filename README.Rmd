@@ -36,11 +36,25 @@ remotes::install_github("Lingtax/conspirator")
 
 ## Use
 
-Generate a conspiracy using the `conspire` function
+Generate a conspiracy theory using the `conspire` function. By default, the function will return a conspiracy from its inbuilt dictionaries - at the time of writing, this should generate 5248 unique conspiracy theories.  
 
-```{r}
-conspirator::conspire()
+```{r basic-demo}
+library(conspirator)
+conspire()
 ```
+
+You can now also provide the conspire function with lists or character vectors to control the outputs either partially or in full. 
+
+```{r flexible-demo}
+agents <- list("Bin chickens are", "Brush-tailed possums are")
+adjectives <- c("loudly", "brazenly")
+actions <- "tipping over my bird bath."
+
+conspire(agent = agents)
+conspire(agent = agents, adjective = adjectives, action = actions)
+```
+
+
 
 ## Code of Conduct
   
