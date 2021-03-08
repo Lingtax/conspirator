@@ -1,13 +1,22 @@
 #' Generate a pseudo-random conspiracy theory
 #'
+#' @param agent a list or character vector of potential agents in the form  "x is" or "y are"
+#' @param adjective a list or character vector of adjectives for the style of action
+#' @param action  a list or character vector of potential actions of the conspirators.
+#'
 #' @return a character string containing a conspiracy theory
 #' 
 #' @export
 #'
 #' @examples
 #' conspirator::conspire()
-conspire <- function() {
+conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
+
+  if (!is.list(agent) && !is.character(agent)) stop("agent is not a list or character vector")
+  if (!is.list(adjective) && !is.character(adjective)) stop("agent is not a list or character vector")
+  if (!is.list(action) && !is.character(action)) stop("agent is not a list or character vector")
   
+  if (is.null(agent)) {  
   agent <-  list("The government is", 
                  "Aliens are", 
                  "Snake people are", 
@@ -46,16 +55,22 @@ conspire <- function() {
                  "A sect within the church is", 
                  "The music industry is",
                  "A cabal of mononymous actors and recording artists are",
-                 "HR managers are"
+                 "HR managers are",
+                 "Secret societies are",
+                 "The Merovingians are"
                  )
+  }
   
+  if (is.null(adjective)) {
   adjective <-  list("secretly", 
                      "covertly",
                      "maliciously",
                      "surreptitiously",
                     "deviously"
                     )
+  }
   
+  if (is.null(action)) {
   action <- list("swapping toothpaste for moisturiser.",
                  "putting up roadwork signs where there is no planned roadwork.",
                  "planning to unify against humanity.",
@@ -185,6 +200,7 @@ conspire <- function() {
                  "engineering cup-holders that are just the wrong size.",
                  "designing take-away coffee lids that don't seal properly."
                  )
+  }
   
   cat(paste(sample(agent, 1), 
         sample(adjective, 1),
