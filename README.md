@@ -4,7 +4,6 @@
 # Conspirator
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 `conspirator` is a dumb little r package made up by Mathew during a
@@ -15,8 +14,8 @@ It’s generally agreed that conspiracy theories must have 3 properties:
 1. Multiple actors plotting together (if it’s just one person, it’s not
 a conspiracy)
 
-2.  Secrecy (if there’s open data, it’s not a conspiracy)
-3.  Malevolence/harmful goals (if you’re plotting to buy mum a present,
+1.  Secrecy (if there’s open data, it’s not a conspiracy)
+2.  Malevolence/harmful goals (if you’re plotting to buy mum a present,
     it’s not a conspiracy)
 
 `conspirator` uses these parameters to generate a random conspiracy
@@ -34,13 +33,13 @@ remotes::install_github("Lingtax/conspirator")
 
 Generate a conspiracy theory using the `conspire` function. By default,
 the function will return a conspiracy from its inbuilt dictionaries - at
-the time of writing, this should generate 5248 unique conspiracy
+the time of writing, this should generate 9333 unique conspiracy
 theories.
 
 ``` r
 library(conspirator)
 conspire()
-#> Cats are secretly funding left-wing radicals somehow.
+#> Androids are covertly planting tracking devices in people’s fillings.
 ```
 
 You can now also provide the conspire function with lists or character
@@ -48,13 +47,13 @@ vectors to control the outputs either partially or in full.
 
 ``` r
 agents <- list("Bin chickens are", "Brush-tailed possums are")
-adjectives <- c("loudly", "brazenly")
+adverbs <- c("loudly", "brazenly")
 actions <- "tipping over my bird bath."
 
 conspire(agent = agents)
-#> Bin chickens are secretly searching for the Ark of the Covenant.
-conspire(agent = agents, adjective = adjectives, action = actions)
-#> Bin chickens are loudly tipping over my bird bath.
+#> Brush-tailed possums are secretly running their organisation from the basement of a pizza place.
+conspire(agent = agents, adverb = adverbs, action = actions)
+#> Bin chickens are brazenly tipping over my bird bath.
 ```
 
 ## Code of Conduct

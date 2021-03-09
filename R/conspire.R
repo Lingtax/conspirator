@@ -1,7 +1,7 @@
 #' Generate a pseudo-random conspiracy theory
 #'
 #' @param agent a list or character vector of potential agents in the form  "x is" or "y are"
-#' @param adjective a list or character vector of adjectives for the style of action
+#' @param adverb a list or character vector of adverbs for the style of action
 #' @param action  a list or character vector of potential actions of the conspirators.
 #'
 #' @return a character string containing a conspiracy theory
@@ -10,10 +10,10 @@
 #'
 #' @examples
 #' conspirator::conspire()
-conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
+conspire <- function(agent = NULL, adverb = NULL, action = NULL) {
 
   if (!is.list(agent) && !is.character(agent) && !is.null(agent)) stop("agent is not a list or character vector")
-  if (!is.list(adjective) && !is.character(adjective) && !is.null(adjective)) stop("agent is not a list or character vector")
+  if (!is.list(adverb) && !is.character(adverb) && !is.null(adverb)) stop("agent is not a list or character vector")
   if (!is.list(action) && !is.character(action) && !is.null(action)) stop("agent is not a list or character vector")
   
   if (is.null(agent)) {  
@@ -81,8 +81,8 @@ conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
                  )
   }
   
-  if (is.null(adjective)) {
-  adjective <-  list("secretly", 
+  if (is.null(adverb)) {
+  adverb <-  list("secretly", 
                      "covertly",
                      "maliciously",
                      "surreptitiously",
@@ -249,7 +249,7 @@ conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
   }
   
   cat(paste(sample(agent, 1), 
-        sample(adjective, 1),
+        sample(adverb, 1),
         sample(action, 1)
         ))
 }
