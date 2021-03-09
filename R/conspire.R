@@ -12,9 +12,9 @@
 #' conspirator::conspire()
 conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
 
-  if (!is.list(agent) && !is.character(agent)) stop("agent is not a list or character vector")
-  if (!is.list(adjective) && !is.character(adjective)) stop("agent is not a list or character vector")
-  if (!is.list(action) && !is.character(action)) stop("agent is not a list or character vector")
+  if (!is.list(agent) && !is.character(agent) && !is.null(agent)) stop("agent is not a list or character vector")
+  if (!is.list(adjective) && !is.character(adjective) && !is.null(adjective)) stop("agent is not a list or character vector")
+  if (!is.list(action) && !is.character(action) && !is.null(action)) stop("agent is not a list or character vector")
   
   if (is.null(agent)) {  
   agent <-  list("The government is", 
