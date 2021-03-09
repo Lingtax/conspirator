@@ -57,7 +57,27 @@ conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
                  "A cabal of mononymous actors and recording artists are",
                  "HR managers are",
                  "Secret societies are",
-                 "The Merovingians are"
+                 "The Merovingians are",
+                 "The Wiggles are",                 
+                 "The International Labour Organisation is",
+                 "The UN is",                 
+                 "The Men in Black are",
+                 "The Rosicrucians are",                 
+                 "The Priory of Sion is",
+                 "Majestic 12 is",                 
+                 "Trekkies are",
+                 "Followers of Nostradamus are",                 
+                 "The Boy Scouts of America are",
+                 "The Triads are",                 
+                 "The Yakuza are",
+                 "The Hermetic Order of the Golden Dawn is",                 
+                 "HYDRA is",
+                 "The Order of the Dragon is",                 
+                 "The World Wildlife Fund is",
+                 "The SPCA is",                 
+                 "The Automobile Association is",
+                 "The Military-Industrial Complex is",                 
+                 "The YMCA is"
                  )
   }
   
@@ -66,7 +86,8 @@ conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
                      "covertly",
                      "maliciously",
                      "surreptitiously",
-                    "deviously"
+                     "deviously",
+                     "insidiously"             
                     )
   }
   
@@ -198,7 +219,32 @@ conspire <- function(agent = NULL, adjective = NULL, action = NULL) {
                  "producing reality TV shows.", 
                  "introducing your parents to things that you like.",
                  "engineering cup-holders that are just the wrong size.",
-                 "designing take-away coffee lids that don't seal properly."
+                 "designing take-away coffee lids that don't seal properly.",
+                     "awakening the Great Cthulhu.",
+                     "using Tik Tok to turn pre-millennials against us.",
+                     "creating even more PowerPoint templates.",
+                     "reactivating the Philadelphia experiment.",
+                     "excavating the pyramids of Giza.",
+                     "translating the lines of Nazca.",
+                     "tapping into the Earth’s telluric currents.",
+                     "unlocking the secret of avocados.",
+                     "squaring the circle.",
+                     "solving the three body problem using numerology.",
+                     "translating the Voynich manuscript.",
+                     "searching for the Holy Grail.",
+                     "communicating with extradimensional beings.",
+                     "holding Elvis prisoner.",
+                     "operating a weather control satellite network.",
+                     "defrosting a gigantic frozen alien in Antarctica.",
+                     "inserting subliminal messages into breakfast cereal advertisements.",
+                     "planting tracking devices in people’s fillings.",
+                     "constructing a giant spaceship to save the world’s wealthy in the event of environmental apocalypse.", 
+                     "uplifting apes to human levels of intelligence.", 
+                     "making line dancing popular again.",
+                     "summoning demons to do their bidding.", 
+                     "building a secret military moon base.", 
+                     "destroying the minds of scientists using infuriating journal submission portals.",
+                     "enumerating the nine billion names of God."
                  )
   }
   
