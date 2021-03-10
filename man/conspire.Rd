@@ -4,7 +4,14 @@
 \alias{conspire}
 \title{Generate a pseudo-random conspiracy theory}
 \usage{
-conspire()
+conspire(agent = NULL, adverb = NULL, action = NULL)
+}
+\arguments{
+\item{agent}{a list or character vector of potential agents in the form  "x is" or "y are"}
+
+\item{adverb}{a list or character vector of adverbs for the style of action}
+
+\item{action}{a list or character vector of potential actions of the conspirators.}
 }
 \value{
 a character string containing a conspiracy theory
