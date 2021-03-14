@@ -78,7 +78,10 @@ conspire <- function(agent = NULL, adverb = NULL, action = NULL) {
                  "The Automobile Association is",
                  "The Military-Industrial Complex is",                 
                  "The YMCA is",
-                 "The Thule society is"
+                 "The Thule society is",
+                 "NFT speculators are", 
+                 "*nix users are", 
+                 "The cult of Apple are"
                  )
   }
   
@@ -269,7 +272,13 @@ conspire <- function(agent = NULL, adverb = NULL, action = NULL) {
                  "launching an expedition into the Dyatalov pass.",
                  "making sacrifices to the Darvaza gas crater.",
                  "hiding the truth about the Bermuda triangle.", 
-                 "activating the Moai of Easter Island."
+                 "activating the Moai of Easter Island.",
+                 "shortening phone battery life.",
+                 "creating phone reception black spots.",
+                 "making new cryptocurrencies.", 
+                 "promoting conflict between programming languages.", 
+                 "eliminating compatability with S.",
+                 "planting Agapanthus."
                  )
   }
   
