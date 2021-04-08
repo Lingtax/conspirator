@@ -81,7 +81,9 @@ conspire <- function(agent = NULL, adverb = NULL, action = NULL) {
                  "The Thule society is",
                  "NFT speculators are", 
                  "*nix users are", 
-                 "The cult of Apple are"
+                 "The cult of Apple are",
+                 "A collaboration of psychologists across Australia and New Zealand are",
+                 "The unicode consortium are"
                  )
   }
   
@@ -278,7 +280,13 @@ conspire <- function(agent = NULL, adverb = NULL, action = NULL) {
                  "making new cryptocurrencies.", 
                  "promoting conflict between programming languages.", 
                  "eliminating compatability with S.",
-                 "planting Agapanthus."
+                 "planting Agapanthus.",
+                 "seeing you while you're sleeping and knowing when you're awake.",
+                 "introducing poll taxes.",
+                 "boosting the profile of narcisistic villains.",
+                 "making you self-conscious about the shape of your nose.",
+                 "adjusting the climate control settings.", 
+                 "distracting from the real threats posed by cassowaries and sinkholes."
                  )
   }
   
