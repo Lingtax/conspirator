@@ -54,7 +54,7 @@ conspire <- function(agent = NULL, adverb = NULL, action = NULL) {
                  "Organised criminals are",
                  "A sect within the church is", 
                  "The music industry is",
-                 "A cabal of mononymous actors and recording artists are",
+                 "A collection of mononymous actors and recording artists are",
                  "HR managers are",
                  "Secret societies are",
                  "The Merovingians are",
