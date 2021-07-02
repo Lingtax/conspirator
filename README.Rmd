@@ -54,6 +54,11 @@ conspire(agent = agents)
 conspire(agent = agents, adverb = adverbs, action = actions)
 ```
 
+Also, inspired by [Tim Graham](https://twitter.com/timothyjgraham/status/1410800954144804869), the package now makes bios for twitter bot accounts, using the `bot_maker()` function
+
+```{r make-bots}
+bot_maker()
+```
 
 
 ## Code of Conduct
